@@ -1,5 +1,5 @@
 def caching_fibonacci():
-    cache = {}
+    cache = {} #Порожній словник для кешування
 
     def fibonacci(n):
         if n <= 0:
